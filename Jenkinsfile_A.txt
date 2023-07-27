@@ -20,7 +20,7 @@ pipeline{
                 steps{
                     echo "STAGE3 - DOCKER BUILD AND INCLUDE THIS CODE (INDEX.HTML) IN DOCKER"
                     sh '''cd /proj/ditiss
-                    docker build -t ditiss-img:v1 .
+                    docker build -t ditiss-img:v1 .'''
                 }   
             }
         }
